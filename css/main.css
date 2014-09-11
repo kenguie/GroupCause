@@ -7,8 +7,7 @@ body {
 #wrap {
    width: 960px;
    margin: 100px auto;
-   background-color: #fff;
-   opacity:0.5; 
+   background-color: rgba(255,255,255,0.5); 
 }
 #header {
    width: 100%;
