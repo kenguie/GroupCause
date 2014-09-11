@@ -55,6 +55,35 @@ h1 {
    padding: 0 50px 50px;
    min-height: 800px;
 }
+<<<<<<< HEAD
+
+
+
+/*------------MISSION PAGE----------*/
+
+.missiontitle{
+   font-size: 30pt;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.missioncontent{
+   font-size: 21pt;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*------------MISSION PAGE END----------*/
+=======
  
 /*-------------Causes & Impact---------------*/
 
@@ -89,6 +118,4 @@ h1 {
    font-size: 1.5em;
    color: black;
    background-color: initial;
-   
->>>>>>> f045aa8a9ee99dd8b01999968cf5b1f84daf1ebe
 }
