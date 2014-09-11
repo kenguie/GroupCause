@@ -9,18 +9,16 @@ body {
 }
 #header {
    width: 100%;
+   position: fixed;
 }
 #nav {
-   width: 100%;
+   width: 600px;
    margin: 0 0 3em 0;
    padding: 0;
 }
 #nav ul {
-   list-style: none;
-   background-color: #f2f2f2;
-   border-bottom: 1px solid #ccc; 
-   border-top: 1px solid #ccc; 
-   float: left; 
+   list-style: none; 
+   float: right; 
 }
 #nav li {
    float: left; 
@@ -41,7 +39,7 @@ h1 {
    font-size: 1.5em;
    padding: 1em 8px;
    color: #333;
-   background-color: #069;
+   background-color: #000;
    margin: 0; 
 }
 #content {
