@@ -147,7 +147,7 @@ h1 {
 
 .titles h1 {
    font-family: 'Droid Sans', sans-serif;
-   font-size: 1.5em;
+   font-size: 1.75em;
    color: black;
    background-color: initial;
 }
@@ -161,6 +161,7 @@ h1 {
 
 .text p {
    font-family: 'Droid Sans', sans-serif;
+   font-size: 1.3em;
 }
 
 
