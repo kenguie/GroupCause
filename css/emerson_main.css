@@ -1,7 +1,8 @@
 body {
-   background: #ffffff url(../images/homing_pigeon.jpg) no-repeat top center; 
-/*   background-position: center;
-   background-repeat: no-repeat;*/
+   background-image: url('../images/homing_pigeon.jpg'); 
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: 100%;
    font: small/1.3 Arial, Helvetica, sans-serif; 
 }
 #wrap {
@@ -16,11 +17,23 @@ body {
    height: 100px;
    background: #000;
 }
+#header_container {
+   width: 960px;
+   margin: 0 auto;
+}
+#logo {
+   width: 450px;
+   height: 100px;
+   padding-top: 20px;
+   display: inline;
+}
 #nav {
-   width: 600px;
+   width: 450px;
+   height: 50px;
    margin: 0 0 3em 0;
    padding: 0;
    float: right;
+   display: inline;
 }
 #nav ul {
    list-style: none; 
@@ -51,4 +64,28 @@ h1 {
 #content {
    padding: 0 50px 50px;
    min-height: 800px;
+}
+#footer {
+   width: 100%;
+   height: 200px;
+   background: #666666;
+}
+#footer_ul_container { 
+   width: 960px;
+   margin: 0 auto;
+}
+
+#footer_ul_container_links {
+   width: 200px; 
+   float: left;
+   font-size: 15px;
+   font-weight: bold;
+}
+#footer_newsletter {
+   width: 310px;
+   height: 100px;
+   margin-top: 18px;
+   float: left;
+   background: #000;
+   color: #fff;
 }
