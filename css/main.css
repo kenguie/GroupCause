@@ -7,15 +7,16 @@ body {
 #wrap {
    width: 960px;
    margin: 100px auto;
-   background-color: rgba(255,255,255,0.5); 
+   background-color: rgba(255,255,255,0.6); 
 }
 #header {
    width: 100%;
    position: fixed;
    top: 0;
    height: 100px;
-   background: #000;
+   background: #181818; 
 }
+
 #nav {
    width: 600px;
    margin: 0 0 3em 0;
@@ -34,7 +35,7 @@ body {
    padding: 8px 15px;
    text-decoration: none;
    font-weight: bold;
-   color: #069;
+   color: #8DC6FF;
    border-right: 1px solid #ccc; 
 }
 #nav li a:hover {
@@ -44,9 +45,11 @@ body {
 h1 {
    font-size: 1.5em;
    padding: 1em 8px;
-   color: #333;
-   background-color: #000;
+   color: #E6BC69;
+   background-color: #181818;
    margin: 0; 
+   font-style: italic;
+   font-family: Arial;
 }
 #content {
    padding: 0 50px 50px;
@@ -55,20 +58,30 @@ h1 {
  
 /*-------------Causes & Impact---------------*/
 
-#CIwrap{
-   background-color: lightblue;
+#CIwrap{ 
    height: 800px;
    width: 100%; 
    margin: 0 auto; 
 }
 
-.CItextbox{
-   background-color: grey;
+.CItextbox{ 
    height: 350px;
    width: 80%;
    margin: 0 auto;
    margin-top: 30px;
 } 
+
+.CItitle{
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #333333;
+}
+
+.CIlist{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #333;
+}
 
 /* --------------- For Help Page (page 4) --------------------*/
 
