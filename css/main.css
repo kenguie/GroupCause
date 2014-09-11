@@ -101,6 +101,7 @@ h1 {
 }
 
 .helpImageContainer img {
+   border: 0;
    height: 100px;
    float: right;
    padding: 15px;
