@@ -52,3 +52,30 @@ h1 {
    padding: 0 50px 50px;
    min-height: 800px;
 }
+
+
+
+/*------------MISSION PAGE----------*/
+
+.missiontitle{
+   font-size: 30pt;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.missioncontent{
+   font-size: 21pt;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*------------MISSION PAGE END----------*/
