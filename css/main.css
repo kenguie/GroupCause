@@ -52,8 +52,7 @@ h1 {
    padding: 0 50px 50px;
    min-height: 800px;
 }
-
-
+ 
 /*-------------Causes & Impact---------------*/
 
 #CIwrap{
@@ -69,4 +68,14 @@ h1 {
    width: 80%;
    margin: 0 auto;
    margin-top: 30px;
+} 
+
+/* --------------- For Help Page (page 4) --------------------*/
+
+.titles h1 {
+   font-size: 1.5em;
+   color: black;
+   background-color: initial;
+   
+>>>>>>> f045aa8a9ee99dd8b01999968cf5b1f84daf1ebe
 }
