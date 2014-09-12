@@ -26,12 +26,21 @@ body {
    margin: 0 auto;
 }
 
+#pigeonlogo{
+   height: 60%;
+   display: inline;
+   position: relative;
+   margin-top: 12px;
+}
+
 #logo{ 
+   position: relative;
    width: 450px;
    height: 100px;
    padding-top: 20px;
    float: left;
    display: inline;  
+   
 } 
 
 #nav{ 
@@ -67,8 +76,11 @@ h1 {
    padding: 1em 8px;
    color: #E6BC69; 
    margin: 0; 
+   width: 75%;
    font-style: italic;
    font-family: Arial;
+   display: inline;
+   top:0;
 }
 #content {
    padding: 0 50px 50px;
