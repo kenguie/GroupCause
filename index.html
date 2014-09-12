@@ -20,7 +20,8 @@
 	    items[2]="<a href='/'><img alt='' src='images/p5.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
 	    items[3]="<a href='/'><img alt='' src='images/p6.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
 	    items[4]="<a href='/'><img alt='' src='images/p7.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
-	function rotater() {
+	function rotater(event) {
+		event.preventDefault();
 	    document.getElementById("placeholder").innerHTML = items[current];
 	    current = (current==items.length-1) ? 0 : current + 1;
 	    setTimeout("rotater()",howOften*1000);
