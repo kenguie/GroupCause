@@ -198,4 +198,120 @@ p {
    font-size: 1.3em;
 }
 
+/*Start Emerson CSS for front Paes*/
+      #home_video {
+         width: 560px;
+         height: 320px;
+         float: left;
+         margin: 10px 0 10px 0;
+      }
+      #home_call_to_action {
+         width: 390px;
+         height: 320px;
+         display: inline-block;
+         float: left;
+         margin: 10px 0 10px 0;
+         padding: 0 0 0 10px;
+         color: #333;
+         font-size: 16px;
+         font-weight: bold;
+         text-align: center;
+      }
+      #home_news {
+         width: 540px;
+         height: 340px;
+         float: left;
+         margin: 0 0 10px 0;
+         color: #333;
+         font-size: 14px;
+         font-family: arial;
+         padding-left: 20px;
+         border-top: 1px solid #666;
+      }
+
+      #home_pigeon_party {
+         width: 390px;
+         height: 340px;
+         display: inline-block;
+         float: left;
+         margin: 0 0 10px 0;
+         padding: 0 0 0 10px;
+         text-align: center;
+         border-top: 1px solid #666;
+         color: #333;
+         font-size: 14px;
+         font-family: arial;
+
+      }
+
+      #home_columns {
+         width: 300px;
+         min-height: 400px;
+         float: left;
+         margin-left: 10px;
+         display: inline-block;
+         text-align: center;
+      }
+      #mission {
+         font-family: arial;
+         color: #ff3300;
+         font-size: 48px;
+         vertical-align: top-left;
+         margin: 0;
+         text-shadow: 0px 1px 1px #000;
+      }
+      #mission_text {
+         clear: both;
+         width: 250px;
+         font-family: arial;
+         font-size: 18px;
+         color: #333;
+         text-shadow: 0px 1px 1px #999;
+         text-align: center;
+         margin-left: 65px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+      }
+      #social_icons {
+          text-align: center;
+          width: 250px;
+          margin-top: 10px;
+          margin-left: 25px;
+      }
+
+      #social_icons li {
+          display: inline;
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+      }
+
+      #home_news_title {
+         font-family: arial;
+         font-size: 28px;
+         color: #555;
+         font-weight: bold;   
+
+      }
+      h2 {
+         font-family: arial;
+         font-size: 22px;
+         color: #ff3300;
+         font-weight: bold;
+
+      }
+      h3 {
+         font-family: arial;
+         font-size: 14px;
+         color: #666;
+
+      }
+      #blog_title {
+         font-size: 64px;
+         margin-bottom: 10px;
+         padding: 0;
+      }
+
+/*End Emerson CSS for front Paes*/
+
 
