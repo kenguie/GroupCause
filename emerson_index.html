@@ -1,9 +1,40 @@
 <!Doctype html>
 <html>
 <head>
+<<<<<<< HEAD
+	<title>Save the Home Pigeon</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/emerson_main.css">
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+
+			<script type="text/javascript">
+				$(function() {
+					$('#carousel').carouFredSel({
+						width: '100%',
+						items: {
+							visible: 3,
+							start: -1
+						},
+						scroll: {
+							items: 1,
+							duration: 1000,
+							timeoutDuration: 3000
+						},
+						prev: '#prev',
+						next: '#next',
+						pagination: {
+							container: '#pager',
+							deviation: 1
+						}
+					});
+				});
+			</script>
+=======
    <title>Save The Pigeon!</title>
    <link rel="stylesheet" href="./css/normalize.css">
    <link rel="stylesheet" href="./css/emerson_main.css">
+>>>>>>> origin/gh-pages
 
 </head>
 <body>
@@ -24,6 +55,19 @@
 		  
    </div>
 
+		<div id="wrapper">
+			<div id="carousel">
+				<img src="images/pigeon0.jpg" alt="building1" width="1920" height="500" />
+				<img src="images/pigeon1.jpg" alt="building2" width="1920" height="500" />
+				<img src="images/pigeon2.jpg" alt="building3" width="1920" height="500" />
+				<img src="images/pigeon3.jpg" alt="building4" width="1920" height="500" />
+				<img src="images/pigeon4.jpg" alt="building5" width="1920" height="500" />
+				<img src="images/pigeon5.jpg" alt="building6" width="1920" height="500" />
+			</div>
+			<a href="#" id="prev" title="Show previous"> </a>
+			<a href="#" id="next" title="Show next"> </a>
+			<div id="pager"></div>
+		</div>
    <div id="wrap">
 
       <br clear="all">
