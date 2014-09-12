@@ -1,0 +1,120 @@
+<!Doctype html>
+<html>
+<head>
+   <title>Save The Pigeon!</title>
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/main.css">
+	            <!-------Fonts---------------->
+   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	<script language="JavaScript1.2">
+
+	var howOften = 7; //number often in seconds to rotate
+	var current = 0; //start the counter at 0
+	var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+	// place your images, text, etc in the array elements here
+	var items = new Array();
+	    items[0]="<a href='/'><img alt='' src='images/p1.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[1]="<a href='/'><img alt='' src='images/p2.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[2]="<a href='/'><img alt='' src='images/p3.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[3]="<a href='/'><img alt='' src='images/p4.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[4]="<a href='/'><img alt='' src='images/p5.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[5]="<a href='/'><img alt='' src='images/p6.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[6]="<a href='/'><img alt='' src='images/p7.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[7]="<a href='/'><img alt='' src='images/p8.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	    items[8]="<a href='/'><img alt='' src='images/p9.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	function rotater() {
+	    document.getElementById("placeholder").innerHTML = items[current];
+	    current = (current==items.length-1) ? 0 : current + 1;
+	    setTimeout("rotater()",howOften*1000);
+	}
+
+	function rotater() {
+	    if(document.layers) {
+	        document.placeholderlayer.document.write(items[current]);
+	        document.placeholderlayer.document.close();
+	    }
+	    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+	        if(document.all)
+	            placeholderdiv.innerHTML=items[current];
+
+	    current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+	    setTimeout("rotater()",howOften*1000);
+	}
+	window.onload=rotater;
+	//-->
+	</script>
+ 
+</head>
+<body>
+  <div id="header">
+    <div id="header_container">
+      <div id="logo">
+        <h1>Save The Pigeons!</h1>
+      </div> 
+      <div id="nav">
+          <ul id="nav">
+            <li><a href="http://nyhunter77.github.io/GroupCause/help">Volunteer</a></li> 
+            <li><a href="http://nyhunter77.github.io/GroupCause/causes_impact">Causes & Impact</a></li>
+            <li><a href="http://nyhunter77.github.io/GroupCause/mission">Our Mission</a></li> 
+            <li><a href="http://nyhunter77.github.io/GroupCause/">Home</a></li> 
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="wrap">
+<!-------------- code for the slider ------------------>	
+	<layer id="placeholderlayer"></layer>
+	<div id="placeholderdiv"></div>
+<!----------------------------------------------------->	
+    <br clear="all">
+      <div id="content">
+        <p>Main Content Goes Here.</p>
+      </div>
+
+  </div>
+  <div id="footer">
+     
+  <div id="footer_ul_container">
+
+    <div id="footer_ul_container_links">
+      <ul>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>       
+      </ul>
+    </div>
+
+    <div id="footer_ul_container_links">
+      <ul>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+      </ul>
+    </div>
+
+    <div id="footer_ul_container_links">
+      <ul>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>       
+      </ul>
+    </div>
+
+    <div id="footer_newsletter">
+    Newsletter Subscribe Here.
+    </div> 
+  </div>     
+</body>
+</html>
+ 
