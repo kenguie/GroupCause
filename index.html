@@ -14,14 +14,12 @@
 	var ns6 = document.getElementById&&!document.all; //detect netscape 6
 
 	// place your images, text, etc in the array elements here
-	var items = new Array();
-	    items[0]="<a href='/'><img alt='' src='images/p1.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[1]="<a href='/'><img alt='' src='images/p2.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[2]="<a href='/'><img alt='' src='images/p3.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[3]="<a href='/'><img alt='' src='images/p4.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[4]="<a href='/'><img alt='' src='images/p5.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[5]="<a href='/'><img alt='' src='images/p6.jpg' height='420' width='960' border='0' /></a>"; //a linked image
-	    items[6]="<a href='/'><img alt='' src='images/p7.jpg' height='420' width='960' border='0' /></a>"; //a linked image
+	var items = new Array(); 
+	    items[0]="<a href='/'><img alt='' src='images/p3.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
+	    items[1]="<a href='/'><img alt='' src='images/p4.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
+	    items[2]="<a href='/'><img alt='' src='images/p5.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
+	    items[3]="<a href='/'><img alt='' src='images/p6.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
+	    items[4]="<a href='/'><img alt='' src='images/p7.jpg' height='100%' width='100%' border='0' /></a>"; //a linked image
 	function rotater() {
 	    document.getElementById("placeholder").innerHTML = items[current];
 	    current = (current==items.length-1) ? 0 : current + 1;
@@ -63,11 +61,9 @@
     </div>
   </div>
 
-  <div id="wrap">
-<!-------------- code for the slider ------------------>	
+  <div id="wrap"> 
 	<layer id="placeholderlayer"></layer>
-	<div id="placeholderdiv"></div>
-<!----------------------------------------------------->	
+	<div id="placeholderdiv"></div> 
     <br clear="all">
       <div id="content">
         <p>Main Content Goes Here.</p>
