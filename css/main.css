@@ -100,15 +100,26 @@ h1 {
    color: #fff;
 }
 
+p {
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 1.3em;
+}
+
 /*------------MISSION PAGE----------*/
 
 .missiontitle{
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 1.75em;
+   font-style: italic;
+   font-weight: bold;
    font-size: 30pt;
    text-align: center;
    padding-top: 40px;
 }
 
 .missioncontent{
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 1.3em;
    font-size: 20pt;
    text-align: center;
 }
@@ -131,14 +142,18 @@ h1 {
 
 .CItitle{
    font-size: 40px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 1.75em;
+   font-style: italic;
+   font-weight: bold;
    color: #333333;
    text-align: center;
 }
 
 .CIlist{
    font-size: 20px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 1.3em;
    color: #333;
    text-align: left;
 }
