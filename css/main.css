@@ -21,7 +21,8 @@ body {
    position: fixed;
    top: 0;
    height: 100px;
-   background: #181818; 
+   background: #181818;
+   z-index: 50;
 }
 
 #header_container {
@@ -94,6 +95,7 @@ h1 {
 /*----- for slider --------*/
 #placeholderlayer{ 
    width: 100%;
+   z-index: 1;
 }
 
 #placeholderdiv {  
@@ -101,8 +103,7 @@ h1 {
    position: relative;
    top: 100px;
    display: table;
-	margin: 0 auto;
-
+   margin: 0 auto;
 }
 /*--------------*/
 
